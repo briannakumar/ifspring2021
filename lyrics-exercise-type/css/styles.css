@@ -1,0 +1,52 @@
+html{
+    background-color: mistyrose;
+    border-top-style: solid;
+    border-top-width: 50px;
+    border-top-color: darkslateblue;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
+    border-bottom-color: darkslateblue ;
+}
+
+
+p{
+    font-family: font-family: 'Playfair Display', serif;
+    line-height: 13px;
+    text-align: center;
+}
+
+h1{
+    font-weight:600;
+    color: midnightblue;
+    font-size: 45px;
+    font-family: font-family: 'Playfair Display', serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+
+h2{
+    color: rgb(230, 52, 147);
+    font-size: 30px;
+    font-weight: normal;
+    font-family: font-family: 'Playfair Display', serif;
+    text-align: center;
+    line-height: 5px;
+    text-transform: uppercase;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.Chorus{
+    font-weight:500;
+    font-style: italic;
+    line-height: 13px;
+    color: rgb(230, 52, 147);
+    font-size: 16.5px;
+}
+
