@@ -1,0 +1,119 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 18px;
+}
+
+.panel {
+    padding: 40px;
+    /* background-color: rgba(100, 255, 255, 0.5);*/
+}
+
+.safe-area {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background-image: url('/Users/briannakumar/Desktop/ifspring2021/publish/multi-panel-page/flower background.jpg');
+    background-size: cover;
+}
+
+header.panel .safe-area {
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 140px;
+}
+
+header.panel h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+header.panel .subheading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+
+#float-image {
+    width: 42%;
+    float: right;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
+section.feature.panel {
+    background-color: rgb(252, 234, 227);
+    padding-bottom: 53px;
+}
+
+section.gallery.panel {
+    background-color:rgb(248, 195, 182);
+    padding-bottom: 20px;
+}
+
+section.conclusion.panel {
+    background-color:rgb(255, 237, 188);
+    padding-bottom: 140px;
+}
+
+.grid-flex {
+    display: flex;
+    margin-top: -21px;
+}
+
+ul{
+list-style: none;
+padding-left: 0;
+padding-right: 23px;
+}
+
+#grid-image {
+    width: 200px;
+    height: 150px;
+}
+
+.image-grid li {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+h3{
+    padding-left: 11px;
+    margin-top: 0px;
+    margin-bottom: -13px;
+}
+
+p{
+    padding-left: 11px;
+}
+
+p1{
+text-align: center;
+font-size: 25px;
+}
+
+section.conclusion.panel .safe-area {
+    width: 69%;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer.panel {
+    padding-top: 0;
+    background-color: rgb(42, 43, 44);
+    padding-bottom: 15px;
+}
+
+p.copyright {
+    margin-top: 0;
+    padding-left: 180px;
+    padding-top: 39px;
+    color: snow;
+}
