@@ -1,0 +1,37 @@
+body {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.recipe-details {
+    display: flex;
+}
+
+.recipe-details .ingredients {
+    max-width: 35%;
+    margin-right: 60px;
+}
+
+.recipe-details .instructions {
+    max-width: 70%
+}
+
+@media (max-width:640px) {
+    .recipe-details {
+        flex-direction: column;
+    }
+
+    .recipe-details .ingredients {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .recipe-details .instructions {
+        max-width: 100%;
+    }
+}
