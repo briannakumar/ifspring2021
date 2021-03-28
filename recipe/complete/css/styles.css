@@ -1,0 +1,138 @@
+body {
+    margin: 15px;
+}
+
+html {
+    background-color: rgb(252, 244, 241);
+}
+
+.content-area {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+
+footer{
+    max-width: 960px;
+    margin: auto;
+    width: 90%;
+}
+
+img{
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.recipe-details {
+    padding-bottom: 4rem;
+    padding-top: .5rem;
+}
+
+@media (min-width: 640px) {
+    .recipe-details {
+        display: flex;
+    }
+}
+
+
+@media (min-width:640px) {
+    .recipe-details .ingredients {
+        max-width: 40%;
+        margin-right: 50px;
+    }
+
+    .recipe-details .instructions {
+        max-width: 60%;
+    }
+}
+
+h1{
+    font-family: playfair-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(100, 73, 61);
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media (min-width: 660px) {
+    h1 {
+        font-size: 55px;
+    }
+}
+
+.heading p {
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 660px) {
+    .heading p {
+        font-size: 18px;
+    }
+}
+p{
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.instructions p{
+    line-height: 25px;
+}
+
+h2{
+    font-family: playfair-display, serif;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(80, 57, 47);
+    font-size: 30px;
+}
+
+footer{
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    padding-bottom: 1rem;
+}
+
+li{
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+h3{
+    color: rgb(80, 57, 47);
+    font-family: playfair-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+
+hr{
+    color: rgb(68, 51, 44);
+}
+
+.prep {
+    background-color: rgb(80, 63, 55);
+    color: rgb(248, 240, 237);
+}
+
+.prep p {
+    padding-left: 15px;
+}
+
+.prep p:first-of-type {
+    padding-top: 15px;
+}
+
+.prep p:last-of-type {
+    padding-bottom: 15px;
+}
