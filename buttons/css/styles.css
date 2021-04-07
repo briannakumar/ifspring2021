@@ -1,0 +1,478 @@
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a#btn_coke {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 50px 0px 50px;
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 25px;
+    font-family: viktor-script, sans-serif;
+    text-decoration: none;
+    transition: all .5s; 
+}
+
+a#btn_coke:hover {
+    background-color: #fff;
+				border: 2px solid#FF0000;
+				color: #FF0000;
+}
+
+a#btn_harleydavidson {
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 10px 10px 10px;
+    background-color: rgb(49, 31, 15);
+    color: rgb(252, 147, 49);
+    border: 3px solid rgb(252, 147, 49);
+    font-size: 28px;
+    font-family: acumin-pro-extra-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s; 
+}
+
+a#btn_harleydavidson:hover {
+    background: rgb(252, 147, 49);
+    color: rgb(49, 31, 15);
+    border: 3px solid rgb(49, 31, 15);
+}
+
+a#btn_ibm {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 2px 40px 0 40px;
+    background: blue;
+    color: #fff;
+    font-size: 40px;
+    font-family: ibm-plex-mono, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_ibm:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid blue;
+    color :blue;
+}
+
+a#btn_ideo {
+    display: inline-block;
+    height: 70px;
+    margin: auto;
+    margin-top: 100px;
+    color: rgb(243, 132, 81);
+    font-size: 40px;
+    font-family: abril-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_ideo:hover {
+    text-shadow: 2px 2px 4px rgb(132, 216, 236);
+}
+
+a#btn_lyft {
+    display: inline-block;
+    height: 60px;
+    width: 180px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background: linear-gradient(#f177eb,#da07bd);
+    color: white;
+    font-size: 32px;
+    font-family: museo-sans-rounded,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_lyft:hover {
+    background: linear-gradient(#e946e1,#8b0497);
+}
+
+a#btn_samsung {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    color: black;
+    font-size: 50px;
+    font-family: acumin-pro-extra-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_samsung:hover {
+    background-color: white;
+   text-decoration: underline black;
+}
+
+a#btn_nike {
+    display: inline-block;
+    height: 80px;
+    width: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 7px 40px 0 35px;
+    background: rgb(255, 255, 255);
+    color: rgb(248, 114, 61);
+    font-size: 50px;
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+    border: 2px solid rgb(248, 114, 61);
+    transition: all .5s;
+}
+
+a#btn_nike:hover {
+    background: linear-gradient(#ffffff,#f8ddc9);
+}
+
+a#btn_colorrun {
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    border-radius: 140px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 40px 0 40px;
+    background: linear-gradient(#42d8fd, #eb19ac);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: acumin-pro-extra-condensed,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 35px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_colorrun:hover {
+    box-shadow: 7px 7px 5px 0px rgba(152, 35, 230, 0.75)
+}
+
+a#btn_moo {
+    display: inline-block;
+    height: 60px;
+    width: 120px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 24px;
+    background: white;
+    border: 2px solid rgb(62, 133, 100);
+    color: rgb(62, 133, 100);
+    font-size: 30px;
+    font-family: museo-sans,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_moo:hover {
+    background: rgb(62, 133, 100);
+    color: white;
+}
+
+a#btn_pottermore {
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 7px 40px 0 40px;
+    background: rgb(105, 74, 56);
+    color: rgb(250, 191, 81);
+    font-size: 30px;
+    font-family: eskapade-fraktur,serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_pottermore:hover {
+    background: rgb(66, 49, 39);
+}
+
+a#btn_fitbit {
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background: white;
+    color: rgb(89, 169, 206);
+    border: 2px solid rgb(89, 169, 206) ;
+    font-size: 30px;
+    font-family: omnium, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_fitbit:hover {
+    box-shadow: 2px 2px 15px rgb(132, 216, 236);
+}
+
+a#btn_newyorker {
+    display: inline-block;
+    height: 145px;
+    width: 145px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px 20px 0 14px;
+    background: black;
+    color:white;
+    font-size: 30px;
+    font-family: adobe-caslon-pro,serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_newyorker:hover {
+    height: 155px;
+    width: 155px;
+}
+
+a#btn_instagram {
+    display: inline-block;
+    margin: auto;
+    margin-top: 70px;
+    padding: 0px 40px 0 25px;
+    color: rgb(245, 13, 129);
+    font-size: 40px;
+    font-family: boucherie-cursive,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_instagram:hover {
+    background: -webkit-linear-gradient(left, rgb(223, 5, 114), yellow);
+   background: -o-linear-gradient(right, rgb(223, 5, 114), yellow);
+   background: -moz-linear-gradient(right, rgb(223, 5, 114), yellow);
+   background: linear-gradient(to right,rgb(223, 5, 114) , yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a#btn_facebook {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding: 15px 40px 0 40px;
+    background: rgb(28, 13, 245);
+    color: white;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_facebook:hover {
+    box-shadow:0px 0px 14px 0px rgba(0, 38, 255, 0.56);
+    text-shadow:10px 10px 20px 10px rgba(255, 255, 255, 0.56);
+}
+
+a#btn_oldnavy {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 40px 0 40px;
+    color: navy;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0s
+}
+
+a#btn_oldnavy:hover {
+    height: 60px;
+    width: 170px;
+    border-radius: 50%;
+    background: navy;
+    color: white;
+}
+
+a#btn_sardella {
+    display: inline-block;
+    height: 120px;
+    width: 160px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 70px;
+    padding: 44px 40px 0 18px;
+    background: white;
+    color: rgb(23, 208, 233);
+    box-shadow:0px 0px 14px 0px rgb(23, 208, 233);
+    font-size: 20px;
+    font-family: fairwater-deco-serif,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_sardella:hover {
+    box-shadow:0px 0px 14px 0px rgb(3, 47, 168);
+}
+
+a#btn_cartoonnetwork {
+    display: inline-block;
+    height: 80px;
+    width: 140px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 6px 19px 0 20px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 0);
+    font-size: 45px;
+    font-family: piepie,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_cartoonnetwork:hover {
+    color: white;
+    font-size: 48px;
+    height: 82px;
+    width: 142px;
+}
+
+a#btn_missouribotanicalgarden {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    color: #6ca580;
+    font-size: 27px;
+    font-family: royale-35,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_missouribotanicalgarden:hover {
+    font-size: 30px;
+    color: #508866;
+    text-shadow: 2px 2px 4px rgb(185, 238, 183);
+}
+
+}
+
+a#btn_explodingkittens {
+    display: inline-block;
+    height: 60px;
+    width: 180px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background: grey;
+    color: black;
+    font-size: 32px;
+    font-family: museo-sans-rounded,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_explodingkittens:hover {
+    background:black;
+    color: grey;
+}
+
+a#btn_tesla {
+    display: inline-block;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px 40px 0 40px;
+    color:red;
+    font-size: 30px;
+    font-family: eurostile-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_tesla:hover {
+    text-shadow: 2px 2px 4px grey;
+}
