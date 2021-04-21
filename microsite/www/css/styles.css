@@ -8,7 +8,7 @@ html{
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url('microsite/www/images/Home Image.jpg');
+    background-image: url('/Users/briannakumar/Desktop/ifspring2021/publish/microsite/www/images/Home Image.jpg');
 }
 
 .overlay h1{
