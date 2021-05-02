@@ -1,0 +1,230 @@
+html{
+    font-family: proxima-nova, sans-serif;
+}
+
+.big-image {
+    height: 100%;
+    width: 100&;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../images/Home Image.jpg');
+}
+
+.overlay h1{
+    font-size: 130px;
+    margin-left: 18%;
+    color: #f7fcf3;
+    padding-top: 150px;
+}
+
+img {
+    width: 100%;
+}
+
+@media screen and (max-width: 910px) {
+    .overlay h1{
+        font-size: 80px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+
+.sidenav {
+   width: 100%; 
+   height: 40%;
+   z-index: 2; /* Stay on top */
+   top: 0; /* Stay at the top */
+   left: 0;
+   background-color:#657C4E;
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 5px;
+ }
+ 
+ /* The navigation menu links */
+ .sidenav a {
+   padding: 6px 8px 6px 5px;
+   text-decoration: none;
+   font-size: 22px;
+   color: white;
+   display: block;
+   text-align: center;
+ }
+
+ .sidenav h1{
+   color: white;
+   font-size: 25px;
+   text-align: center;
+   padding: 16px;
+   margin: auto;
+   margin-bottom: 28px;
+ }
+ /* When hover over navigation links, change color */
+ .sidenav a:hover {
+   color: rgb(156, 187, 166);
+ }
+
+
+ @media screen and (min-width: 910px) {
+   .sidenav {
+     height: 100%; /* Full-height: remove this if you want "auto" height */
+     width: 13%; 
+     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+     z-index: 2; /* Stay on top */
+     top: 0; /* Stay at the top */
+     left: 0;
+     background-color:#657C4E;
+     overflow-x: hidden; /* Disable horizontal scroll */
+     padding-top: 45px;
+   }
+   /* The navigation menu links */
+   .sidenav a {
+     padding: 6px 8px 6px 16px;
+     text-decoration: none;
+     font-size: 20px;
+     color: white;
+     display: block;
+     text-align: center;
+   }
+
+   .main {
+     margin-left: 13%; 
+     padding-top: 50px;
+   }
+
+   .main-text{
+     margin-left: 13%;
+     padding-top: 50px;
+     margin-right: 3%;
+   }
+
+ }
+
+
+
+ h2{
+   font-size: 4rem;
+   color: #657C4E;
+   margin-bottom: 7.5%;
+ }
+
+ .main-text{
+   padding-top: 10px;
+   padding-left: 50px;
+   font-size: 14px;
+   line-height: 23px;
+ }
+
+ h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 17px;
+    color: #657C4E;
+ }
+
+ h4{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+ }
+
+ @media screen and (max-width: 910px) {
+    h4{
+        font-size: 15px;
+    }
+}
+
+
+ 
+ /* On smaller screens, change the style of the sidebar */
+
+ @media screen and (max-width: 1028px) {
+   .sidenav h1 {font-size: 25px;}
+   .sidenav {padding-top: 60px;}
+ }
+
+ @media screen and (max-width: 910px) {
+   .sidenav {padding-top: 60px;}
+   .sidenav a {font-size: 18px;}
+   .sidenav h1 {font-size: 20px;
+                margin-bottom: 5px;}
+   .sidenav{
+     padding-top: 15px;
+     padding-bottom: 15px;
+   }
+
+   .main-text{
+     margin-right: 0;
+     padding: 3.1em;
+     font-size: 12.5px;
+   }
+
+   h2{
+     font-size: 2rem;
+   }
+
+ }
+
+ footer {
+    text-align: right;
+    z-index: 1;
+    margin-left: 20%;
+    padding: 0px 10px;
+    font-size: 12px;
+ }
+
+ .row {
+     display: flex;
+ }
+ 
+ .column {
+     flex: 45%;
+     padding: 5px;
+ }
+
+
+
+.Climber Image {
+    padding: 0;
+}
+
+.Climber-Container {
+    width: 100%;
+}
+
+.Alex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+.Adam {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+.Shauna {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .Alex{
+        grid-template-columns: 1fr;
+    }
+
+    .Adam{
+        grid-template-columns: 1fr;
+    }
+
+    .Shauna{
+        grid-template-columns: 1fr;
+    }
+}
+
